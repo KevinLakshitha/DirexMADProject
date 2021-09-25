@@ -4,4 +4,9 @@
     <string name="nic">nic</string>
     <string name="submit">Submit</string>
     <string name="address">Address</string>
+    <string name="lensid">Lens ID</string>
+    <string name="titlelens">Lens Title</string>
+    <string name="lensprice">Lens Price</string>
+    <string name="lensdis">Description</string>
+    <string name="addnewlens">ADD NEW LENS</string>
 </resources>

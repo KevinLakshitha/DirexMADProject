@@ -20,7 +20,7 @@ FirebaseDatabase database = FirebaseDatabase.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_lens_admin);
 
         final EditText editnameU = findViewById(R.id.editnameU);
         final EditText editaddressU = findViewById(R.id.editaddressU);
@@ -38,7 +38,7 @@ FirebaseDatabase database = FirebaseDatabase.getInstance();
                 User user = new User(name,address);
                 ref.child(name).setValue(user);
 
-                Toast.makeText(MainActivity.this,"Created Succussfully",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Created Successfully",Toast.LENGTH_SHORT).show();
             }
         });
 
