@@ -4,7 +4,9 @@ public class User {
 
     private String username;
     private String address;
+
     public User(){}
+
     public User(String username, String address) {
         this.username = username;
         this.address = address;
