@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DirexCameraRent</string>
+    <string name="username">User Name</string>
+    <string name="nic">nic</string>
+    <string name="submit">Submit</string>
+    <string name="address">Address</string>
+</resources>
