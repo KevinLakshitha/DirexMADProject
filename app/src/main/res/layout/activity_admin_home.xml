@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10pt"
+    android:orientation="vertical"
+    tools:context=".AdminHome">
+
+    <TextView
+        android:id="@+id/txtAdminHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adminhome"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgAdminHome"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_margin="5pt"
+        app:srcCompat="@drawable/admincc" />
+
+    <TextView
+        android:id="@+id/txtAccessADMINHOME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="@string/accessyourcategory"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnCameraAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="@string/camerabtn"
+       />
+
+    <Button
+        android:id="@+id/btnLensAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="@string/lensebtn" />
+
+    <Button
+        android:id="@+id/btnDroneAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="@string/dronebtn" />
+
+    <Button
+        android:id="@+id/btnAccossAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="@string/accosse" />
+
+</LinearLayout>

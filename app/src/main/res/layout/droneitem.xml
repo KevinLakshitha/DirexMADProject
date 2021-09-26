@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewuntitle"
     style="?android:attr/listSeparatorTextViewStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -11,26 +12,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="@string/lensid" />
+        android:text="@string/droneid" />
 
     <TextView
         android:id="@+id/Ltitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="@string/titlelens" />
+        android:text="@string/title" />
 
     <TextView
         android:id="@+id/Lprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="@string/lensprice" />
+        android:text="@string/price" />
 
     <TextView
         android:id="@+id/Ldescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="@string/lensdis" />
+        android:text="@string/description" />
 </LinearLayout>

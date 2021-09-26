@@ -10,19 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DirexCameraRent">
         <activity
-            android:name=".Lenslist"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:name=".UpdateDrone"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
-            android:name=".LensAdmin"
-            android:exported="true"/>
+            android:name=".HomePage"
+            android:exported="true" />
         <activity
-            android:name=".login"
+            android:name=".DeleteDrone"
+            android:exported="true" />
+        <activity
+            android:name=".Dronelist"
+            android:exported="true" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="true" />
+        <activity
+            android:name=".DroneAdmin"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

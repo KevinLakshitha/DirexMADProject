@@ -55,10 +55,10 @@ public class Lensadapter extends RecyclerView.Adapter<Lensadapter.MyViewHolder> 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            lensid = itemView.findViewById(R.id.LLid);
-            lenstitle = itemView.findViewById(R.id.LLtitle);
-            lensprice = itemView.findViewById(R.id.LLprice);
-            lensdis = itemView.findViewById(R.id.LLdis);
+            lensid = itemView.findViewById(R.id.Ldroneid);
+            lenstitle = itemView.findViewById(R.id.Ltitle);
+            lensprice = itemView.findViewById(R.id.Lprice);
+            lensdis = itemView.findViewById(R.id.Ldescription);
 
         }
     }

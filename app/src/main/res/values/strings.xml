@@ -4,9 +4,40 @@
     <string name="nic">nic</string>
     <string name="submit">Submit</string>
     <string name="address">Address</string>
+
     <string name="lensid">Lens ID</string>
     <string name="titlelens">Lens Title</string>
     <string name="lensprice">Lens Price</string>
     <string name="lensdis">Description</string>
     <string name="addnewlens">ADD NEW LENS</string>
+    =======
+    <string name="txtDroneAdmin">Drone</string>
+    <string name="txtdrone2Admin">Add new Drone to the System</string>
+    <string name="droneid">Drone ID</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="adddrone">Add New Drone</string>
+    <string name="adminhome">Admin Home</string>
+    <string name="accessyourcategory">Access Your Category</string>
+    <string name="camerabtn">Camera</string>
+    <string name="lensebtn">Lense</string>
+    <string name="dronebtn">Drone</string>
+    <string name="accosse">Accessories</string>
+    <string name="deletedrone">Delete Drone Details</string>
+    <string name="deletedroneid">Enter the Drone ID</string>
+
+    <string name="btnCameraH">Camera</string>
+    <string name="lensbtnH">Lense</string>
+    <string name="droneHbtn">Drone</string>
+    <string name="accessHbtn">Accessories</string>
+    <string name="btnDeleteD">Delete</string>
+    <string name="etDroneidupdate">Drone ID</string>
+    <string name="ettitleDroneUpdate">Title</string>
+    <string name="etpricedronrupdate">Price</string>
+    <string name="etdesdroneupdate">Description</string>
+    <string name="btnupdatedrone">Update</string>
+    <string name="etdeletecam">Camera ID</string>
+    <string name="btndelete">Delete Camera</string>
+    >>>>>>> Stashed changes
 </resources>
