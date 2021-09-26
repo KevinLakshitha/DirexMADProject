@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kevin/AndroidStudioProjects/DirexCameraRent/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/activity_delete_lens.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/activity_lens_admin.xml" value="0.28306159420289856" />
         <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/activity_lenslist.xml" value="0.276268115942029" />
         <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/activity_lenspage.xml" value="0.27853260869565216" />
         <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/activity_login.xml" value="0.27853260869565216" />
         <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/activity_main.xml" value="0.27853260869565216" />
+        <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/activity_update_lens.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/lensitem.xml" value="0.276268115942029" />
         <entry key="..\:/Users/kevin/Desktop/DirexMADProject/app/src/main/res/layout/listedlens.xml" value="0.28306159420289856" />
       </map>

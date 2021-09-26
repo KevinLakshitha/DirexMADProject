@@ -9,4 +9,6 @@
     <string name="lensprice">Lens Price</string>
     <string name="lensdis">Description</string>
     <string name="addnewlens">ADD NEW LENS</string>
+    <string name="deletelens">Delete Lens</string>
+    <string name="btndeletelens">Delete Lens</string>
 </resources>

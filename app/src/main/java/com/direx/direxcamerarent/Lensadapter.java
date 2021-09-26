@@ -12,24 +12,19 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class Lensadapter extends RecyclerView.Adapter<Lensadapter.MyViewHolder> {
-
     Context context;
-
     ArrayList<Lens> list;
-
 
     public Lensadapter(Context context, ArrayList<Lens> list) {
         this.context = context;
         this.list = list;
     }
-
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(context).inflate(R.layout.lensitem,parent,false);
         return  new MyViewHolder(v);
     }
-
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
@@ -38,10 +33,7 @@ public class Lensadapter extends RecyclerView.Adapter<Lensadapter.MyViewHolder> 
         holder.lenstitle.setText(lenss.getLenstitle());
         holder.lensprice.setText(lenss.getLensprice());
         holder.lensdis.setText(lenss.getLensdis());
-
-
     }
-
     @Override
     public int getItemCount() {
         return list.size();

@@ -10,17 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DirexCameraRent">
         <activity
+            android:name=".UpdateLens"
+            android:exported="true" />
+        <activity
+            android:name=".Delete_lens"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteLens"
+            android:exported="true" />
+        <activity
             android:name=".Lenslist"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".LensAdmin"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".login"
             android:exported="true" />
