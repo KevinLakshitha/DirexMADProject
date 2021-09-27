@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ad"
     android:orientation="vertical"
     tools:context=".DroneAdmin">
 
     <TextView
         android:id="@+id/txtDroneAdmin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10pt"
+        android:layout_height="172dp"
         android:text="@string/txtDroneAdmin"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -22,7 +22,6 @@
         android:id="@+id/txtAddDrone2Admin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
         android:text="@string/txtdrone2Admin"
         android:textAlignment="textStart"
         android:textColor="#000000"
@@ -33,7 +32,6 @@
         android:id="@+id/etDroneIDAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
         android:ems="10"
         android:hint="@string/droneid"
         android:inputType="textPersonName"
@@ -43,7 +41,6 @@
         android:id="@+id/etTitleAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
         android:ems="10"
         android:hint="@string/title"
         android:inputType="textPersonName"
@@ -53,7 +50,6 @@
         android:id="@+id/etPriceAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
         android:ems="10"
         android:hint="@string/price"
         android:inputType="textPersonName"
@@ -63,7 +59,6 @@
         android:id="@+id/etDescriptionAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
         android:ems="10"
         android:hint="@string/description"
         android:inputType="textPersonName"
@@ -73,6 +68,5 @@
         android:id="@+id/btnAddDroneADMIN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/adddrone"
-        android:layout_margin="10pt" />
+        android:text="@string/adddrone" />
 </LinearLayout>
