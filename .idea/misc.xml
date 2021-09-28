@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kevin/AndroidStudioProjects/DirexCameraRent/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_admin_camera.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_deletecamera.xml" value="0.19947916666666668" />
       </map>
     </option>
   </component>

@@ -4,4 +4,9 @@
     <string name="nic">nic</string>
     <string name="submit">Submit</string>
     <string name="address">Address</string>
+    <string name="etcameraID">CameraID</string>
+    <string name="cameraTitle">Camera Title</string>
+    <string name="etDes">Description</string>
+    <string name="etPrice">Price</string>
+    <string name="addcamera">Add New Camera</string>
 </resources>
