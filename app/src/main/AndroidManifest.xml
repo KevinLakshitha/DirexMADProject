@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DirexCameraRent">
         <activity
+            android:name=".AdminhomeL"
+            android:exported="true" />
+        <activity
             android:name=".CustomerSingleLens"
             android:exported="true" />
         <activity
