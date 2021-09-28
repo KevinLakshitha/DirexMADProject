@@ -5,7 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bgooo"
     tools:context=".LensAdmin">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -15,15 +21,18 @@
         android:text="Lens"
         android:textAlignment="center"
         android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_height="34dp"
+        android:layout_margin="5dp"
         android:text="Add New Lens to the System"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textAllCaps="false"
         android:textStyle="bold" />
 
@@ -32,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
         android:hint="@string/lensid"
         android:inputType="textPersonName"
@@ -44,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
         android:hint="@string/titlelens"
         android:inputType="textPersonName"
@@ -56,9 +67,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
         android:hint="@string/lensprice"
-        android:inputType="textPersonName"
+        android:inputType="number"
+
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textAllCaps="false" />
@@ -68,9 +81,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
         android:hint="@string/lensdis"
-        android:inputType="textPersonName"
+        android:inputType="text"
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textAllCaps="false" />
@@ -80,5 +94,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="@string/addnewlens" />
+        android:backgroundTint="#00A1F8"
+        android:text="@string/addnewlens"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnviewL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00A1F8"
+        android:text="@string/btnviewlens"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

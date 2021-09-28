@@ -11,4 +11,13 @@
     <string name="addnewlens">ADD NEW LENS</string>
     <string name="deletelens">Delete Lens</string>
     <string name="btndeletelens">Delete Lens</string>
+    <string name="etLensidupdate">"Lens id "</string>
+    <string name="lenstitle">lenstitle</string>
+    <string name="etpriceLensupdate" />
+    <string name="etdislensupdate">etdislensupdate</string>
+    <string name="btnupdatelens">btnupdatelens</string>
+    <string name="etpriceLensupdatee">etpriceLensupdate</string>
+    <string name="btnEditL">EDIT</string>
+    <string name="btnDeleteL">DELETE</string>
+    <string name="btnviewlens">VIEW LISTED LENSES</string>
 </resources>

@@ -42,9 +42,8 @@ public class Lenslist extends AppCompatActivity {
 
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()){
 
-                    Lens lenss = dataSnapshot.getValue(Lens.class);
-                    list.add(lenss);
-
+                    Lens lens = dataSnapshot.getValue(Lens.class);
+                    list.add(lens);
 
                 }
                 myAdapter.notifyDataSetChanged();

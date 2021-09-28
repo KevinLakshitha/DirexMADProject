@@ -2,6 +2,7 @@ package com.direx.direxcamerarent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -29,6 +30,18 @@ public class LensAdmin extends AppCompatActivity {
 
         Button btn = findViewById(R.id.BTAadd);
 
+        Button btn2 = findViewById(R.id.btnviewL);
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            opennext();
+
+
+            }
+        });
+
 
 
         btn.setOnClickListener(new View.OnClickListener() {
@@ -39,6 +52,8 @@ public class LensAdmin extends AppCompatActivity {
                 String lensprice = ETAlensprice.getText().toString().trim();
                 String lensdis = ETAlensdis.getText().toString().trim();
 
+                validateInfo(lensdis);
+
                 DatabaseReference ref = database.getReference("lens");
                 Lens lens = new Lens(lensid,lenstitle,lensprice,lensdis);
                 ref.child(lensid).setValue(lens);
@@ -47,5 +62,23 @@ public class LensAdmin extends AppCompatActivity {
             }
         });
 
+    }
+
+
+
+
+    public void opennext() {
+        Intent intent1 = new Intent(this, Lenslist.class);
+        startActivity(intent1);
+    }
+
+
+    private Boolean validateInfo(String lensdis){
+        if(lensdis!="canon mount" || lensdis!="nikon mount" || lensdis!="sony mount"){
+            ETAlensdis.requestFocus();
+            ETAlensdis.setError("please enter mount type");
+            return false;
+
+        }
     }
 }
