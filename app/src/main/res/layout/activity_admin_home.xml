@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5pt"
         android:width="300dp"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/camerabtn" />
 
     <Button
@@ -44,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5pt"
         android:width="300dp"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/lensebtn" />
 
     <Button
@@ -52,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5pt"
         android:width="300dp"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/dronebtn" />
 
     <Button
@@ -60,6 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5pt"
         android:width="300dp"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/accosse" />
 
 </LinearLayout>
