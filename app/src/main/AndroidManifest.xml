@@ -9,28 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DirexCameraRent">
-        <activity
-            android:name=".UpdateDrone"
-            android:exported="true"/>
+
 
         <activity
             android:name=".HomePage"
             android:exported="true" />
         <activity
-            android:name=".DeleteDrone"
-            android:exported="true" />
-        <activity
             android:name=".Dronelist"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+
         <activity
             android:name=".AdminHome"
-            android:exported="true" />
+            android:exported="true" >
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name=".DroneAdmin"
             android:exported="true" />

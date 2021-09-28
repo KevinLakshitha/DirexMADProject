@@ -39,5 +39,8 @@
     <string name="btnupdatedrone">Update</string>
     <string name="etdeletecam">Camera ID</string>
     <string name="btndelete">Delete Camera</string>
+    <string name="editdronedetails">Edit</string>
+    <string name="deletedronedetails">Delete</string>
+    <string name="btnviewadmin">Update and Delete Details</string>
     >>>>>>> Stashed changes
 </resources>

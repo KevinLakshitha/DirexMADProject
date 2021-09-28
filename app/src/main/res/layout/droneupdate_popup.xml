@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bgn"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#0013D390"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Update Drone Details"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etdroneidPopup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/dronerounded"
+        android:hint="@string/droneid"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/etpricePopup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/dronerounded"
+        android:hint="@string/title"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/etpricepopup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/dronerounded"
+        android:hint="@string/price"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/etdisPopup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/dronerounded"
+        android:hint="@string/description"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/btnUpdatedronePopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dronerounded"
+        android:backgroundTint="#FFFFFF"
+        android:text="UPDATE"
+        android:textColor="#FDFDFD"
+        android:textSize="20dp"
+        app:iconTint="#F6F5F5" />
+
+
+</LinearLayout>

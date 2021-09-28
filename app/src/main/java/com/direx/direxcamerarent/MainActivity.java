@@ -19,7 +19,7 @@ FirebaseDatabase database = FirebaseDatabase.getInstance();
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_dronelist);
+        setContentView(R.layout.activity_admin_home);
 
 
         final EditText editnameU = findViewById(R.id.editnameU);

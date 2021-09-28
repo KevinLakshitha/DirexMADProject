@@ -11,14 +11,14 @@
     <TextView
         android:id="@+id/txtdroneaddmainbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="23dp"
         android:layout_margin="10pt" />
 
     <TextView
         android:id="@+id/txtDroneAdmin"
         android:layout_width="479dp"
-        android:layout_height="63dp"
-        android:layout_margin="10pt"
+        android:layout_height="69dp"
+        android:layout_margin="5pt"
         android:text="@string/txtDroneAdmin"
         android:textAlignment="textStart"
         android:textColor="#FFFFFF"
@@ -29,7 +29,7 @@
         android:id="@+id/txtAddDrone2Admin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
+        android:layout_margin="5pt"
         android:text="@string/txtdrone2Admin"
         android:textAlignment="textStart"
         android:textColor="#FFFFFF"
@@ -40,7 +40,7 @@
         android:id="@+id/etDroneIDAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
+        android:layout_margin="5pt"
         android:ems="10"
         android:hint="@string/droneid"
         android:inputType="textPersonName"
@@ -52,7 +52,7 @@
         android:id="@+id/etTitleAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
+        android:layout_margin="5pt"
         android:ems="10"
         android:hint="@string/title"
         android:inputType="textPersonName"
@@ -76,7 +76,7 @@
         android:id="@+id/etDescriptionAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
+        android:layout_margin="5pt"
         android:ems="10"
         android:hint="@string/description"
         android:inputType="textPersonName"
@@ -88,6 +88,15 @@
         android:id="@+id/btnAddDroneADMIN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10pt"
+        android:layout_margin="5pt"
         android:text="@string/adddrone" />
+
+    <Button
+        android:id="@+id/btnAdminView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00A1F8"
+        android:text="@string/btnviewadmin"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

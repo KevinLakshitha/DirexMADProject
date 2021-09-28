@@ -1,5 +1,6 @@
 package com.direx.direxcamerarent;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -23,7 +24,17 @@ public class DroneAdmin extends AppCompatActivity {
         final EditText etPriceAdmin = findViewById(R.id.etPriceAdmin);
         final EditText etDescriptionAdmin = findViewById(R.id.etDescriptionAdmin);
         Button btn = findViewById(R.id.btnAddDroneADMIN);
+        Button btn2 = findViewById(R.id.btnAdminView);
 
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                opennext();
+
+
+            }
+        });
 
 
         btn.setOnClickListener(new View.OnClickListener() {
@@ -38,9 +49,14 @@ public class DroneAdmin extends AppCompatActivity {
                 Drone drone = new Drone(droneid,title,price,description);
                 ref.child(droneid).setValue(drone);
 
-                Toast.makeText(DroneAdmin.this,"Created Successfully",Toast.LENGTH_SHORT).show();
+                Toast.makeText(DroneAdmin.this," Successfully Added",Toast.LENGTH_SHORT).show();
             }
         });
 
     }
+    public void opennext() {
+        Intent intent1 = new Intent(this, Dronelist.class);
+        startActivity(intent1);
+    }
+
 }
