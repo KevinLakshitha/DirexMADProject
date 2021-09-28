@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgn"
     android:orientation="vertical"
     tools:context=".HomePage">
 
     <TextView
         android:id="@+id/txthome1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="DIREX Camra Rent"
+        android:layout_height="96dp"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -26,43 +26,36 @@
     <TextView
         android:id="@+id/txtHome2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Select Your Category" />
+        android:layout_height="36dp"
+        android:text="Select Your Category"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnCamaeraHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/btnCameraH" />
 
     <Button
         android:id="@+id/btnLenseH"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/lensbtnH" />
 
     <Button
         android:id="@+id/btnDroneH"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/droneHbtn" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/accessHbtn" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
 
 </LinearLayout>
