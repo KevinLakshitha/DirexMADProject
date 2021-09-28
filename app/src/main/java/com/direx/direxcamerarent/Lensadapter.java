@@ -109,6 +109,7 @@ public class Lensadapter extends RecyclerView.Adapter<Lensadapter.MyViewHolder> 
 
 
                 btnUpdateLL.setOnClickListener(new View.OnClickListener() {
+
                     @Override
                     public void onClick(View view) {
 
@@ -173,11 +174,12 @@ public class Lensadapter extends RecyclerView.Adapter<Lensadapter.MyViewHolder> 
             lensprice = itemView.findViewById(R.id.LLprice);
             lensdis = itemView.findViewById(R.id.LLdis);
 
-            btnEditL = (Button)itemView.findViewById(R.id.btnEditL);
+            btnEditL = (Button)itemView.findViewById(R.id.btnRentL);
             btnDeleteL = (Button)itemView.findViewById(R.id.btnDeleteL);
 
         }
     }
+
 
 }
 

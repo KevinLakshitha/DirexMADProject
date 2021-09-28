@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tsi"
+    android:orientation="vertical"
+    tools:context=".CustomerSingleLens">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="98dp" />
+
+    <TextView
+        android:id="@+id/CSLLid"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/lensid"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/CSLLtitle"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:layout_margin="5dp"
+        android:text="@string/titlelens"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/CSLLprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/lensprice"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/CSLLdis"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_margin="5dp"
+        android:text="@string/lensdis"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/CSbutton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/CLcartadd"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/CSbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="#03A9F4"
+        android:text="@string/CLcheckoutt"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

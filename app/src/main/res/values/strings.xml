@@ -20,4 +20,10 @@
     <string name="btnEditL">EDIT</string>
     <string name="btnDeleteL">DELETE</string>
     <string name="btnviewlens">VIEW LISTED LENSES</string>
+    <string name="btnRentL">RENT</string>
+    <string name="CLid" />
+    <string name="CLID">Lens ID</string>
+    <string name="CLcartadd">ADD TO CART</string>
+    <string name="CLcheckout" />
+    <string name="CLcheckoutt">CHECKOUT</string>
 </resources>

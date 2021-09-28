@@ -7,32 +7,31 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DirexCameraRent"
-        >
+        android:theme="@style/Theme.DirexCameraRent">
         <activity
-            android:name=".DeleteLensens"
-            android:exported="true"/>
-
-        <activity
-            android:name=".DeleteLens"
+            android:name=".CustomerSingleLens"
             android:exported="true" />
-
         <activity
-            android:name=".Lenslist"
-            android:exported="true"/>
-
-
-        <activity
-            android:name=".LensAdmin"
-            android:exported="true" >
+            android:name=".CustomerLensList"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
+        <activity
+            android:name=".DeleteLensens"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteLens"
+            android:exported="true" />
+        <activity
+            android:name=".Lenslist"
+            android:exported="true" />
+        <activity
+            android:name=".LensAdmin"
+            android:exported="true" />
         <activity
             android:name=".login"
             android:exported="true" />

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/lensid" />
+        android:text="@string/CLID" />
 
     <TextView
         android:id="@+id/LLtitle"
@@ -39,20 +39,19 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnRentL"
-            android:layout_width="192dp"
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btnEditL"
-            android:textColor="#FDFDFD" />
+            android:layout_weight="1" />
 
         <Button
-            android:id="@+id/btnDeleteL"
-            android:layout_width="170dp"
+            android:id="@+id/btnRentL"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btnDeleteL"
-            android:textColor="#FFFFFF" />
+            android:backgroundTint="#2196F3"
+            android:text="@string/btnRentL"
+            android:textColor="#FDFDFD" />
 
     </LinearLayout>
 

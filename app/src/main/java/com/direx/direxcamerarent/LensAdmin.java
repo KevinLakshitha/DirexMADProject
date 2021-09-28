@@ -52,7 +52,7 @@ public class LensAdmin extends AppCompatActivity {
                 String lensprice = ETAlensprice.getText().toString().trim();
                 String lensdis = ETAlensdis.getText().toString().trim();
 
-                validateInfo(lensdis);
+               /* validateInfo(lensdis); */
 
                 DatabaseReference ref = database.getReference("lens");
                 Lens lens = new Lens(lensid,lenstitle,lensprice,lensdis);
@@ -72,7 +72,7 @@ public class LensAdmin extends AppCompatActivity {
         startActivity(intent1);
     }
 
-
+/*
     private Boolean validateInfo(String lensdis){
         if(lensdis!="canon mount" || lensdis!="nikon mount" || lensdis!="sony mount"){
             ETAlensdis.requestFocus();
@@ -80,5 +80,5 @@ public class LensAdmin extends AppCompatActivity {
             return false;
 
         }
-    }
+    }   */
 }
