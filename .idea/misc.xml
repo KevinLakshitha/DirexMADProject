@@ -7,6 +7,7 @@
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/drawable/dronerounded.xml" value="0.125" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_admin_home.xml" value="0.264" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_camera_update.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_cus_drone_list.xml" value="0.20677083333333332" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_delete_camera.xml" value="0.25407608695652173" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_delete_drone.xml" value="0.264" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_drone_admin.xml" value="0.264" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_lenslist.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/activity_update_drone.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/cusdroneitem.xml" value="0.20677083333333332" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/droneitem.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/droneupdate_popup.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/siyat/Desktop/DirexMADProject/app/src/main/res/layout/lensitem.xml" value="0.16875" />

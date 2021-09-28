@@ -177,7 +177,7 @@ public class Droneadapter extends RecyclerView.Adapter<Droneadapter.MyViewHolder
             price = itemView.findViewById(R.id.Lprice);
             description = itemView.findViewById(R.id.Ldescription);
 
-            btnEditDrone = (Button)itemView.findViewById(R.id.btnEditDrone);
+            btnEditDrone = (Button)itemView.findViewById(R.id.btnRentDrone);
             btnDeleteDrone = (Button)itemView.findViewById(R.id.btnDeleteDrone);
 
         }

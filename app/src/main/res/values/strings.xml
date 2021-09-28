@@ -42,5 +42,6 @@
     <string name="editdronedetails">Edit</string>
     <string name="deletedronedetails">Delete</string>
     <string name="btnviewadmin">Update and Delete Details</string>
+    <string name="btnrent">Rent</string>
     >>>>>>> Stashed changes
 </resources>
