@@ -26,4 +26,9 @@
     <string name="CLcartadd">ADD TO CART</string>
     <string name="CLcheckout" />
     <string name="CLcheckoutt">CHECKOUT</string>
+    <string name="Camerabtn">CAMERA</string>
+    <string name="Lensbtn">LENS</string>
+    <string name="Dronebtn">DRONE</string>
+    <string name="Accbtn">Accessories</string>
+    <string name="btnCushome">Customer Home</string>
 </resources>
