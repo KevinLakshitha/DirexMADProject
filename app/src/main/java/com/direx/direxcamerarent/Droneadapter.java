@@ -118,7 +118,7 @@ public class Droneadapter extends RecyclerView.Adapter<Droneadapter.MyViewHolder
 
 
                         Map<String,Object> map = new HashMap<>();
-                        map.put("doneid",droneid.getText().toString());
+                        map.put("droneid",droneid.getText().toString());
                         map.put("title",title.getText().toString());
                         map.put("price",price.getText().toString());
                         map.put("description",description.getText().toString());

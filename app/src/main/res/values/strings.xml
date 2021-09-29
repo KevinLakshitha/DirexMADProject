@@ -45,5 +45,8 @@
     <string name="btnrent">Rent</string>
     <string name="btncartdrone">Add to Cart</string>
     <string name="checkoutcusviewdrone">Checkout</string>
+    <string name="etSearch">Search</string>
+    <string name="btnAdmin">Admin Home</string>
+    <string name="btncushome">Customer Home</string>
     >>>>>>> Stashed changes
 </resources>

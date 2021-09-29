@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -27,7 +27,7 @@
         android:id="@+id/txtHome2"
         android:layout_width="match_parent"
         android:layout_height="36dp"
-        android:text="Select Your Category"
+        android:text="Select Your Section"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -35,27 +35,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_700"
-        android:text="@string/btnCameraH" />
+        android:text="@string/btnAdmin" />
 
     <Button
         android:id="@+id/btnCusHomepage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_700"
-        android:text="@string/lensbtnH" />
+        android:text="@string/btncushome" />
 
-    <Button
-        android:id="@+id/btnDroneH"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple_700"
-        android:text="@string/droneHbtn" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple_700"
-        android:text="@string/accessHbtn" />
 
 </LinearLayout>
