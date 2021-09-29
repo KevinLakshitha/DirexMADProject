@@ -14,6 +14,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class LensAdmin extends AppCompatActivity {
+    EditText ETAlensdis;
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -25,7 +26,7 @@ public class LensAdmin extends AppCompatActivity {
         final EditText ETAlensid = findViewById(R.id.ETAlensid);
         final EditText ETAlenstitle = findViewById(R.id.ETAlenstitle);
         final EditText ETAlensprice = findViewById(R.id.ETAlensprice);
-        final EditText ETAlensdis = findViewById(R.id.ETAlensdis);
+        EditText ETAlensdis = findViewById(R.id.ETAlensdis);
 
 
         Button btn = findViewById(R.id.BTAadd);
@@ -52,7 +53,7 @@ public class LensAdmin extends AppCompatActivity {
                 String lensprice = ETAlensprice.getText().toString().trim();
                 String lensdis = ETAlensdis.getText().toString().trim();
 
-               /* validateInfo(lensdis); */
+               validateInfo(lensdis);
 
                 DatabaseReference ref = database.getReference("lens");
                 Lens lens = new Lens(lensid,lenstitle,lensprice,lensdis);
@@ -72,13 +73,15 @@ public class LensAdmin extends AppCompatActivity {
         startActivity(intent1);
     }
 
-/*
-    private Boolean validateInfo(String lensdis){
-        if(lensdis!="canon mount" || lensdis!="nikon mount" || lensdis!="sony mount"){
+
+    public Boolean validateInfo(String lensdis){
+        if(lensdis=="canon mount" || lensdis=="nikon mount" || lensdis=="sony mount"){
             ETAlensdis.requestFocus();
             ETAlensdis.setError("please enter mount type");
             return false;
 
         }
-    }   */
+        else{
+        return true;}
+    }
 }

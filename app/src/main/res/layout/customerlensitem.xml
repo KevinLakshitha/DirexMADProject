@@ -11,28 +11,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/CLID" />
+        android:text="@string/CLID"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/LLtitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/titlelens" />
+        android:text="@string/titlelens"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/LLprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/lensprice" />
+        android:text="@string/lensprice"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/LLdis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/lensdis" />
+        android:text="@string/lensdis"
+        android:textColor="#FFFFFF" />
 
     <LinearLayout
         android:layout_width="match_parent"

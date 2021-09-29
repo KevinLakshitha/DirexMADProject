@@ -5,35 +5,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="User"
-        android:textAlignment="center"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/editnameU"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:hint="@string/username" />
-
-    <EditText
-        android:id="@+id/editaddressU"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:hint="@string/address" />
-
-    <Button
-        android:id="@+id/btnsubmitU"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="@string/submit" />
-</LinearLayout>
+    android:background="@drawable/splash"
+    tools:context=".MainActivity" />

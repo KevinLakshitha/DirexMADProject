@@ -46,7 +46,7 @@ public class AdminhomeL extends AppCompatActivity {
     }
 
     public void opennext1() {
-        Intent intent2 = new Intent(this, CustomerLensList.class);
+        Intent intent2 = new Intent(this, CustomerHome.class);
         startActivity(intent2);
     }
 }

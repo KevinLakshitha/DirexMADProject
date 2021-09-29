@@ -11,28 +11,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/lensid" />
+        android:text="@string/lensid"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/LLtitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/titlelens" />
+        android:text="@string/titlelens"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/LLprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/lensprice" />
+        android:text="@string/lensprice"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/LLdis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/lensdis" />
+        android:text="@string/lensdis"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,6 +51,7 @@
             android:id="@+id/btnRentL"
             android:layout_width="192dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
             android:text="@string/btnEditL"
             android:textColor="#FDFDFD" />
 
@@ -51,6 +60,7 @@
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#E91E63"
             android:text="@string/btnDeleteL"
             android:textColor="#FFFFFF" />
 

@@ -58,7 +58,7 @@ public class Lensadapter extends RecyclerView.Adapter<Lensadapter.MyViewHolder> 
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
-                                Toast.makeText(holder.lensid.getContext(),"Invoice deleted successfully",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(holder.lensid.getContext(),"Lens deleted successfully",Toast.LENGTH_SHORT).show();
                                 Intent intent1 = new Intent(context,Lenslist.class);
                                 intent1.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                 context.startActivity(intent1);
@@ -69,7 +69,7 @@ public class Lensadapter extends RecyclerView.Adapter<Lensadapter.MyViewHolder> 
                             @Override
                             public void onFailure(@NonNull Exception e) {
 
-                                Toast.makeText(holder.lensid.getContext(),"Invoice deleted data",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(holder.lensid.getContext(),"Lens NO deleted data",Toast.LENGTH_SHORT).show();
                             }
                         });
 

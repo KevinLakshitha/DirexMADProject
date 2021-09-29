@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ttt"
+    android:orientation="vertical"
+    tools:context=".CustomerHome">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="98dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direx Camera Rent"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgAdminHome"
+        android:layout_width="351dp"
+        android:layout_height="247dp"
+        android:layout_margin="25dp"
+        app:srcCompat="@drawable/bgb" />
+
+    <TextView
+        android:id="@+id/txtAccessADMINHOME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="Select Catagory"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCameraAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Camerabtn"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnLensCH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Lensbtn"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnDroneAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Dronebtn"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAccossAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#2196F3"
+        android:minHeight="48dp"
+        android:text="@string/Accbtn"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -4,23 +4,24 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/app_icon2"
+        android:roundIcon="@mipmap/app_icon2"
         android:supportsRtl="true"
         android:theme="@style/Theme.DirexCameraRent">
         <activity
+            android:name=".CustomerHome"
+            android:exported="true" />
+        <activity
             android:name=".AdminhomeL"
             android:exported="true" />
+
         <activity
             android:name=".CustomerSingleLens"
             android:exported="true" />
         <activity
             android:name=".CustomerLensList"
-            android:exported="true"/>
-
-        <activity
-            android:name=".DeleteLensens"
             android:exported="true" />
+
         <activity
             android:name=".DeleteLens"
             android:exported="true" />
@@ -29,6 +30,10 @@
             android:exported="true" />
         <activity
             android:name=".LensAdmin"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,12 +41,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".login"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
     </application>
 
 </manifest>

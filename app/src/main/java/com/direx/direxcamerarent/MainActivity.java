@@ -2,7 +2,9 @@ package com.direx.direxcamerarent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,30 +19,24 @@ public class MainActivity extends AppCompatActivity {
 
 FirebaseDatabase database = FirebaseDatabase.getInstance();
 
+Handler H = new Handler();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lens_admin);
+        setContentView(R.layout.activity_main);
 
-        final EditText editnameU = findViewById(R.id.editnameU);
-        final EditText editaddressU = findViewById(R.id.editaddressU);
-        Button btn = findViewById(R.id.btnsubmitU);
-
-
-
-        btn.setOnClickListener(new View.OnClickListener() {
+        H.postDelayed(new Runnable() {
             @Override
-            public void onClick(View view) {
-                String name = editnameU.getText().toString().trim();
-                String address = editaddressU.getText().toString().trim();
-
-                DatabaseReference ref = database.getReference("user");
-                User user = new User(name,address);
-                ref.child(name).setValue(user);
-
-                Toast.makeText(MainActivity.this,"Created Successfully",Toast.LENGTH_SHORT).show();
+            public void run() {
+                Intent i = new Intent(MainActivity.this, AdminhomeL.class);
+                startActivity(i);
+                finish();
             }
-        });
+        },3000);
+
 
     }
+
+
 }
