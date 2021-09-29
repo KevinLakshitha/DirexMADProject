@@ -5,7 +5,18 @@
       <map>
         <entry key="..\:/Users/kevin/AndroidStudioProjects/DirexCameraRent/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_admin_camera.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_admin_home.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_camera_single_view.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_cameralist.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/layout/activity_customer_camera_list.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_customersinglecamera.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/layout/activity_deletecamera.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21829710144927536" />
+        <entry key="app/src/main/res/layout/camera_popup.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/cameraadminhome.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/cameraitem.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/cameralist.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/customercameraitem.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>

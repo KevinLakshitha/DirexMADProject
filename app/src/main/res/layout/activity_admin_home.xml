@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bgn"
+    android:orientation="vertical"
+    tools:context=".Adminhome">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="99dp" />
+
+    <ImageView
+        android:id="@+id/imgAdminHome"
+        android:layout_width="378dp"
+        android:layout_height="268dp"
+        android:layout_margin="5pt"
+        app:srcCompat="@drawable/adminc" />
+
+    <TextView
+        android:id="@+id/txtAccessADMINHOME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="@string/accessyourcategory"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCameraAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:width="300dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/camerabtn" />
+
+    <Button
+        android:id="@+id/btnLensAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:width="300dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/lensebtn" />
+
+    <Button
+        android:id="@+id/btnDroneAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:width="300dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/dronebtn" />
+
+    <Button
+        android:id="@+id/btnAccossAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:width="300dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/accosse" />
+
+</LinearLayout>

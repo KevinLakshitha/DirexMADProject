@@ -9,4 +9,27 @@
     <string name="etDes">Description</string>
     <string name="etPrice">Price</string>
     <string name="addcamera">Add New Camera</string>
+    <string name="etcameraIDadmin">Camera ID</string>
+    <string name="Deletecamera">Delete Camera</string>
+    <string name="cameralist">Camera List</string>
+    <string name="CID">Camera ID</string>
+    <string name="btnEditC" />
+    <string name="btnEditcam">Edit</string>
+    <string name="btnDeletecam">Delete</string>
+    <string name="camerabtn">Camera Button</string>
+    <string name="lensebtn">Lense Button</string>
+    <string name="dronebtn">Drone Button</string>
+    <string name="accessoriesbtn">Accessories Button</string>
+    <string name="checkoutcamera">Check Out Camera</string>
+    <string name="addtocartcamera">Add to cart Camera</string>
+    <string name="cameradescription">Camera Description</string>
+    <string name="cameraid">Camera ID</string>
+    <string name="rentcamera">Rnt Camera</string>
+    <string name="camid">Camera ID</string>
+    <string name="cameraprice">Camera Price</string>
+    <string name="camerades">Camera Description</string>
+    <string name="camcartaddd">Camera Add to Cart</string>
+    <string name="cameracheckout">Checkout</string>
+    <string name="btnviewcamera">View Camera</string>
+    <string name="btnCuHome">Home</string>
 </resources>

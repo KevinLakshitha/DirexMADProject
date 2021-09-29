@@ -6,9 +6,17 @@ public class Camera {
     private String cameraprice;
     private String camerades;
 
-    public Camera(){}
+    public Camera() {
+    }
 
-    public String getCameraID() {
+    public Camera(String cameraID, String cameratitle, String cameraprice, String camerades) {
+        this.cameraID = cameraID;
+        this.cameratitle = cameratitle;
+        this.cameraprice = cameraprice;
+        this.camerades = camerades;
+    }
+
+    public String getcameraID() {
         return cameraID;
     }
 
@@ -39,13 +47,4 @@ public class Camera {
     public void setCamerades(String camerades) {
         this.camerades = camerades;
     }
-
-    public Camera(String cameraID, String cameratitile, String cameraprice, String camerades ) {
-        this.cameraID = cameraID;
-        this.cameratitle = cameratitle;
-        this.cameraprice = cameraprice;
-        this.camerades =  camerades;
-
-    }
-
 }

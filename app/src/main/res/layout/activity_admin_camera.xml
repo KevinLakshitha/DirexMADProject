@@ -5,53 +5,105 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bgooo"
     tools:context=".AdminCamera">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Camera Admin" />
+        android:layout_margin="10dp"
+        android:text="Camera"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_margin="5dp"
+        android:text="Add New Camera to the System"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/etcameraIDadmin"
+        android:id="@+id/ETAcameraID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
-        android:hint="@string/etcameraID"
+        android:hint="@string/cameraid"
         android:inputType="textPersonName"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
 
     <EditText
-        android:id="@+id/etCameraTitle"
+        android:id="@+id/ETAcameratitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
         android:hint="@string/cameraTitle"
         android:inputType="textPersonName"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
 
     <EditText
-        android:id="@+id/etDes"
+        android:id="@+id/ETAcameraprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
-        android:hint="@string/etDes"
-        android:inputType="textPersonName"
-        android:minHeight="48dp" />
+        android:hint="@string/cameraprice"
+        android:inputType="number"
+
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
 
     <EditText
-        android:id="@+id/etPrice"
+        android:id="@+id/ETAcamerades"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
         android:ems="10"
-        android:hint="@string/etPrice"
-        android:inputType="textPersonName"
-        android:minHeight="48dp" />
+        android:hint="@string/camerades"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
 
     <Button
-        android:id="@+id/btnaddcameraadmin"
+        android:id="@+id/BTAadd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/addcamera" />
+        android:layout_margin="10dp"
+        android:backgroundTint="#00A1F8"
+        android:text="@string/addcamera"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnviewcamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00A1F8"
+        android:text="@string/btnviewcamera"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

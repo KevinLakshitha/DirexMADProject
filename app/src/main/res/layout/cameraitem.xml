@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/CamidAdview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/CID" />
+
+    <TextView
+        android:id="@+id/CamtitleAdview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/cameraTitle" />
+
+    <TextView
+        android:id="@+id/CampriceAdview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/cameraprice" />
+
+    <TextView
+        android:id="@+id/CamdesAdview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/camerades" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Rent"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnEditcam"
+            android:textColor="#FDFDFD" />
+
+        <Button
+            android:id="@+id/btnDeleteL"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnDeletecam"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
