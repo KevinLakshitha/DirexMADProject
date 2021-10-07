@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgn"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/txthome1"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        app:srcCompat="@drawable/direxcover" />
+
+    <TextView
+        android:id="@+id/txtHome2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Select Your Category"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAdminHomepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/btnToAdminHome" />
+
+    <Button
+        android:id="@+id/btnCusHomepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/btncustohome" />
+
+
+
+</LinearLayout>

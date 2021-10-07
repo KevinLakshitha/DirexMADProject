@@ -9,9 +9,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DirexCameraRent">
         <activity
+            android:name=".MainHomedirex"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
             android:name=".MainHomepage"
             android:exported="true" />
-
         <activity
             android:name=".CusDroneSingleview"
             android:exported="true" />
@@ -21,23 +29,16 @@
         <activity
             android:name=".HomePage"
             android:exported="true" />
-
         <activity
             android:name=".Dronelist"
             android:exported="true" />
         <activity
             android:name=".AdminHome"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".DroneAdmin"
             android:exported="true"/>
 
+        <activity
+            android:name=".DroneAdmin"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

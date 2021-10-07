@@ -48,5 +48,7 @@
     <string name="etSearch">Search</string>
     <string name="btnAdmin">Admin Home</string>
     <string name="btncushome">Customer Home</string>
+    <string name="btnToAdminHome">Admin Home Page</string>
+    <string name="btncustohome">Customer Home Page</string>
     >>>>>>> Stashed changes
 </resources>

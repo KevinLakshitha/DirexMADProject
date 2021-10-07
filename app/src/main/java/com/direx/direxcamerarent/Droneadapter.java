@@ -51,7 +51,7 @@ public class Droneadapter extends RecyclerView.Adapter<Droneadapter.MyViewHolder
         holder.description.setText(drone.getDescription());
 
 
-
+//delete part
 
         holder.btnDeleteDrone.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,7 +81,7 @@ public class Droneadapter extends RecyclerView.Adapter<Droneadapter.MyViewHolder
         });
 
 
-
+//update part
 
 
         holder.btnEditDrone.setOnClickListener(new View.OnClickListener() {

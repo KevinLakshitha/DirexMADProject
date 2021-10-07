@@ -53,7 +53,7 @@ public class CusDroneadapter extends RecyclerView.Adapter<CusDroneadapter.MyView
         TextView droneid, title, price, description;
 
         Button btnRentDrone;
-
+//rent button and view
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
